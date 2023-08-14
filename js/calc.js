@@ -86,5 +86,3 @@ document.getElementById('reset').addEventListener('click', function(){
     pera3.innerText = ('press the button');
 });
 
-
-console.log('hello');
