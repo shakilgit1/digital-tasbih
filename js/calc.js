@@ -44,7 +44,7 @@ document.getElementById('btn-2').addEventListener('click', function(){
     }
    initialValue2 +=1;
    number2.innerText = initialValue2;
-   pera2.innerText = p3;
+   pera2.innerText = p1;
 });
 document.getElementById('btn-3').addEventListener('click', function(){
 
@@ -84,5 +84,9 @@ document.getElementById('reset').addEventListener('click', function(){
     pera.innerText = ('press the button');
     pera2.innerText = ('press the button');
     pera3.innerText = ('press the button');
+    initialValue = 0;
+    initialValue2 = 0;
+    initialValue3 = 0;
 });
+
 
